@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>Scanner.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scanner.Application\Scanner.Application.csproj" />
+    <ProjectReference Include="..\Scanner.Domain\Scanner.Domain.csproj" />
+    <ProjectReference Include="..\Scanner.Infrastructure\Scanner.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

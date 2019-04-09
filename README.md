@@ -1,0 +1,1 @@
+# PryzmSocial.Scanner
